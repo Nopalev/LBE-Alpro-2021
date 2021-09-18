@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Naufal's CV</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"> 
+    </head>
+    
+    <body>
+        <header>
+            <p id="Text" class="HeaderText">
+                My CV
+                <button onclick="LightDarkMode()" title="Switch to light or dark mode!" id="Switch" class="SwitchButton">Light Mode</button>
+            </p>
+        </header>
+        <div>
+            <h2 class="TextOne">
+                Hello!
+            </h2>
+            <img src="Profile.jpg" alt="My Profile Photo" class="ProfilePhoto" id="Photo">
+            <h3 class="TextTwo">
+                I am
+            </h3>
+            <h2 class="TextThree">
+                Naufal Faadhilah
+            </h2>
+            <h3 class="TextFour">
+                I am a computer science student who interested in competitive programming and web development. 
+                I have learned C/C++ for a year and have started to learn Java and JavaScript. 
+                I love to learn general knowledge or something random.
+            </h3>
+        </div>
+
+        <hr id="line1">
+
+        <div>
+            <p class="SectionHeader">Biodata</p>
+            <p class="Biodata">Name : Naufal Faadhilah</p>
+            <p class="Biodata">Birth place : Surabaya</p>
+            <p class="Biodata">Birth date : June 29th 2002</p>
+            <p class="Biodata">Religion : Muslim</p>
+            <p class="Biodata">
+                Phone number : +62 822-4511-1725
+                <button onclick="CopyPhoneNumber()" title="Copy my phone number!" id="PhoneNumber" class="Phone">
+                    Copy my phone number!
+                </button>
+            </p>
+            <p class="Biodata">E-mail : 
+                <a onclick="OpenMail()" href="#" title="E-Mail me!" id="Email" class="Gmail">
+                    faadhilah56@gmail.com
+                </a>
+            </p>
+        </div>
+
+        <hr id="line2">
+
+        <div>
+            <p class="SectionHeader">Education</p>
+            <img src="ITS.png" alt="Logo of ITS" id="ITS" class="ITSLogo">
+            <h3 class="College">Institut Teknologi Sepuluh Nopember (2020 - Now)</h3>
+            <h4 class="Department">Informatics Engineering</h4>
+            <li class="Organization">GPA 3.67</li>
+            <li class="Organization">2nd Vice Coordinator of Schematics NPC 2021</li>
+            <li class="Organization">Teaching Assistant at Fundamental Programming (2021)</li>
+
+            <img src="SMAN5_Surabaya.png" alt="Logo of SMAN 5 Surabaya" id="Smala" class="SmalaLogo">
+            <h3 class="HighSchool">SMA Negeri 5 Surabaya (2017-2020)</h3>
+            <h4 class="Department">Math and science</h4>
+            <li class="Organization">1st Treasurer of School Council (2018-2019)</li>
+            <li class="Organization">Member of Marching Club</li>
+        </div>
+
+        <div>
+            <p class="Contact">Want to know more about me?</p>
+            <a href="https://instagram.com/nopal.ev?utm_medium=copy_link" title="My Instagram Account" target="_blank">
+                <img src="Instagram.png" alt="Instagram" id="Logo1" class="Instagram">
+            </a>
+            <a href="https://github.com/Nopalev" title="My Github Account" target="_blank">
+                <img src="github.png" alt="Github" id="Logo2" class="Github">
+            </a>
+            <a href="https://www.linkedin.com/in/naufal-faadhilah-39ba53176/" title="My Linkedin Account" target="_blank">
+                <img src="Linkedin.png" alt="Linkedin" id="Logo3" class="Linkedin">
+            </a>
+            <p class="FooterText">Last Update: September 2021</p>
+        </div>
+        
+    </body>
+</html>

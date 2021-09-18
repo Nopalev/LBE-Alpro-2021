@@ -1,0 +1,235 @@
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+body {
+    background: #a4deff;
+    font-family: 'Ubuntu', 'Oxygen', sans-serif;
+    color: #198fff;
+}
+.HeaderText{
+    font-family: 'Ubuntu', 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 60px;
+    margin: 20px 0 0 120px;
+    position: inherit;
+    color: #198fff;
+}
+.SwitchButton{
+    border: none;
+    color: #a4deff;
+    background-color: #198fff;
+    padding: 13px;
+    text-align: center;
+    font-family: 'Ubuntu', 'Oxygen', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    margin: -10px 180px 0 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 50px;
+}
+.SwitchButton:hover {
+    background-color: #0c7be2;
+}
+hr{
+    margin: 60px 140px 60px 140px;
+    border: 1px solid #19beff;
+}
+.TextOne {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+}
+.TextTwo {
+    font-weight: lighter;
+    margin: 50px 0 0 180px;
+    font-size: 30px;
+}
+.TextThree {
+    font-weight: bold;
+    margin: 20px 180px;
+    font-size: 50px;
+}
+.TextFour{
+    font-weight: 500;
+    margin: 50px 180px 100px 180px;
+    font-size: 24px;
+    text-align: justify;
+}
+.ProfilePhoto{
+    max-height: 200px;
+    max-width: 200px;
+    right: 0;
+    position: absolute;
+    margin-top: -40px;
+    margin-right: 180px;
+    border-radius: 80px;
+    border: #198fff;
+    border-style: solid;
+    border-width: 6px;
+}
+.SectionHeader{
+    margin: 10px 10px 25px 180px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.Biodata{
+    margin: 10px 10px 15px 180px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Phone{
+    border: none;
+    color: #a4deff;
+    background-color: #198fff;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Ubuntu', 'Oxygen', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0 0 0 30px;
+    cursor: pointer;
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 20px;
+}
+.Phone:hover{
+    background-color: #0c7be2
+}
+a{
+    color: #198fff;
+}
+.Gmail:hover{
+    color: #0077e7;
+}
+.ITSLogo{
+    margin-left: 180px;
+    max-width: 150px;
+    max-height: 150px;
+    border: 6px solid #198fff;
+    border-radius: 30px;
+    background: #6db7fc;
+}
+.SmalaLogo{
+    margin: 90px 0 0 180px;
+    max-width: 150px;
+    max-height: 250px;
+    border: 6px solid #198fff;
+    border-radius: 30px;
+    background: #6db7fc;
+}
+.College{
+    margin: -145px 0 0 350px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.HighSchool{
+    margin: -150px 0 0 350px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.Department{
+    margin: 0 0 0 350px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.Organization{
+    margin: 0 0 0 370px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Contact{
+    margin: 100px 0 0 180px;
+    font-weight: bold;
+    font-size: 32px;
+}
+.Instagram{
+    max-width: 75px;
+    max-height: 75px;
+    margin: 30px 0 0 180px;
+    border: 3px solid #198fff;
+    border-radius: 15px;
+    background: #84c3ff;
+}
+.Instagram:hover{
+    background: #56adff;
+}
+.Github{
+    max-width: 75px;
+    max-height: 75px;
+    display: block;
+    margin: -77px auto 0 auto;
+    border: 3px solid #198fff;
+    border-radius: 15px;
+    background: #84c3ff;
+}
+.Github:hover{
+    background: #56adff;
+}
+.Linkedin{
+    max-width: 75px;
+    max-height: 75px;
+    float: right;
+    margin: -75px 180px 0 270px;
+    border: 3px solid #198fff;
+    border-radius: 15px;
+    background: #84c3ff;
+}
+.Linkedin:hover{
+    background: #56adff;
+}
+.FooterText{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.DarkMode{
+    background: #121212;
+}
+.DarkPhoto{
+    border: 6px solid rgb(212, 97, 216);
+}
+.DarkText{
+    color: rgb(212, 97, 216);
+}
+.DarkButton{
+    color: #121212;
+    background: rgb(212, 97, 216);
+}
+.DarkButton:hover {
+    background: rgb(251, 123, 255);
+}
+.hrDark{
+    border: 1px solid rgb(212, 97, 216);
+}
+.DarkLink{
+    color: rgb(212, 97, 216);
+}
+.DarkLink:hover{
+    color: rgb(234, 115, 238);
+}
+.DarkITSLogo{
+    border: 6px solid rgb(146, 43, 150);
+    background: #464141;
+}
+.DarkSmalaLogo{
+    border: 6px solid rgb(146, 43, 150);
+    background: #4e4e4e;
+}
+.DarkLogo{
+    border: 3px solid rgb(146, 43, 150);
+    background: #4e4e4e;
+}
+.DarkLogo:hover{
+    background: #686868;
+}
